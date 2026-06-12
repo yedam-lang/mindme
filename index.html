@@ -69,6 +69,7 @@
     margin-top:16px;
   }
   .grid.cols2{grid-template-columns:repeat(2,1fr);max-width:440px;margin-left:auto;margin-right:auto;}
+  .grid.cols3{grid-template-columns:repeat(3,1fr);}
   .grid.cols5{grid-template-columns:repeat(5,1fr);gap:6px;}
   .grid.cols5 .tick{width:17px;height:17px;font-size:10px;top:3px;right:3px;border-width:2px;}
   .grid.cols5 .order{min-width:17px;height:17px;font-size:10px;top:3px;left:3px;padding:0 3px;border-width:1.5px;}
@@ -517,7 +518,7 @@ function renderMemoStage(){
       <h1>오늘 내가 고른<br><span class="big">9장</span>이에요</h1>
       <p>잠시 9장의 카드를 살펴보세요</p>
     </div>
-    <div class="grid cols2" id="grid"></div>
+    <div class="grid cols3" id="grid"></div>
     <div class="actionbar">
       <button class="btn gold" id="next2">다음 단계로</button>
     </div>
